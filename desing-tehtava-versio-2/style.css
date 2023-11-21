@@ -43,7 +43,7 @@ body {
 	max-width: 900px;
 	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
     font-family: 'Open Sans', sans-serif;
-    
+    padding-left: 75px;
     
     
 
@@ -111,8 +111,8 @@ font-family: 'Raleway', sans-serif;
 
 /*Menu item*/
 #main-menu li {
-    padding: 3px;
-    margin-top: 100px;
+    padding: 20px;
+    margin-top: 50px;
     font-size: 24px;
     
 	/*Laita tässä ja marginaalit paddingit paremmin, 
@@ -204,13 +204,14 @@ main {
 	display: flex; 
     flex-wrap:wrap; 
     margin-top: 20px;    
+    margin-right: 20x;
 
 }
 
 /*Frame of each "article"*/
 article {
 	max-width: 300px; 
-
+   
     
     /*Jos main on flexbox, 
 	tämä tekee sen, että "artikkelit" mahtuvat vierekkäin.*/
