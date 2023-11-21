@@ -113,7 +113,8 @@ font-family: 'Raleway', sans-serif;
 #main-menu li {
     padding: 20px;
     margin-top: 50px;
-    font-size: 24px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
     
 	/*Laita tässä ja marginaalit paddingit paremmin, 
 	niin näyttää tyylikkäämmältä */
@@ -127,6 +128,9 @@ font-family: 'Raleway', sans-serif;
 
 	text-decoration: none; /*poistaa linkin alleviivauksen*/
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    border: solid: rgb(0,0,0)
 
 	/*Voi muokata täällä myös background-, color- 
 	font-size- ja font-family-arvoja.*/
