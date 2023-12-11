@@ -59,7 +59,6 @@ background : #ffff;
 }
 
 header {
-padding : 0.5rem 0;
 background : #D81159;
 font-size : 24px;
 }
@@ -121,7 +120,6 @@ margin : 20px;
 nav ul li {
 margin : 0 1rem;
 align-items : center;
-padding : 0.5rem 0;
 flex : 1;
 text-align : center;
 flex : 0 0 100%;
@@ -186,8 +184,30 @@ font-size : 32px;
 }
 
 @media screen and (max-width: 768px) {
+    nav ul{
+        display: none;
 }
 
+    nav .btn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+    nav ul.show{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #d81159;
+    }
+    
+    nav ul.show li{
+    margin: 0.5rem;
+    }
+    
 .sca {
 color : white;
 text-decoration : none;
