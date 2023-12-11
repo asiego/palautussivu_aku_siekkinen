@@ -90,3 +90,15 @@ body{margin-top:20px;}
     -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
 }
+
+.btn-primary {
+    background-color: #6F4E37 !important;
+    border-color: #6F4E37 !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #ffffff !important; 
+    border-color: #543B29 !important;
+}
