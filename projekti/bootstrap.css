@@ -102,3 +102,31 @@ body{margin-top:20px;}
     background-color: #ffffff !important; 
     border-color: #543B29 !important;
 }
+
+footer{
+position: relative;
+bottom: 10px;
+font-family: "Stint Ultra Expanded", sans-serif;
+}
+
+main{
+font-family: "Stint Ultra Expanded", sans-serif;
+}
+
+.img{
+height: auto;
+width: auto;
+}
+
+h2{
+font-family: "Stint Ultra Expanded", sans-serif;
+}
+
+.excerpt.d-block{
+font-family: "Stint Ultra Expanded", sans-serif;
+color: black;
+}
+
+body,html{
+background-color: #ffffff !important;
+}
