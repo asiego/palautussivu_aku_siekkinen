@@ -96,12 +96,17 @@ nav ul {
 display : flex;
 list-style-type : none;
 color : white;
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
 }
 
 nav ul li {
 margin : 0 0.4rem;
 align-items : center;
 padding : 0.5rem 0.5rem;
+display: flex;
+flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -155,4 +160,15 @@ div[class^="div"] {
 flex : 1;
 width : 45%;
 margin : 1.5%;
+}
+
+.nappi{
+color: #ffbc42;
+border: solid: rgb(255,255,255);
+border-radius: 5px;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+font-family: "Stint Ultra Expanded", sans-serif;
+font-size: 32px;    
 }
