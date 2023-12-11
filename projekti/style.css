@@ -61,7 +61,7 @@ background : #ffff;
 header {
 padding : 0.5rem 0;
 background : #D81159;
-font-size : 36px;
+font-size : 24px;
 }
 
 .parallax-container{
@@ -107,7 +107,7 @@ margin-bottom: 25px;
 }
 
 .logo span {
-font-size : 2rem;
+font-size : 1.5rem;
 }
 
 nav ul {
@@ -129,7 +129,7 @@ flex : 0 0 100%;
 
 nav ul li a {
 text-decoration : none;
-font-size : 24px;
+font-size : 20px;
 letter-spacing : 2px;
 color : #ffff;
 padding : 0.7rem 1rem;
