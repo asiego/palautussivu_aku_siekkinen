@@ -1,0 +1,158 @@
+html {
+background : #FFBC42;
+}
+
+h1, h2 {
+font-family : "Stint Ultra Expanded", sans-serif;
+}
+
+.sivussa {
+font-family : "Pontano Sans", sans-serif;
+}
+
+header {
+width : 100%;
+}
+
+ul, li {
+list-style : none;
+text-decoration : none;
+}
+
+h1, h2 {
+font-family : "Stint Ultra Expanded", sans-serif;
+color : white;
+}
+
+p {
+font-family : "Pontano Sans", sans-serif;
+color : white;
+}
+
+a {
+font-family : "Stint Ultra Expanded", sans-serif;
+}
+
+* {
+padding : 0;
+margin : 0;
+box-sizing : border-box;
+}
+
+body {
+min-height : 100vh;
+position : relative;
+}
+
+body::before {
+content : "";
+position : absolute;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+z-index : -1;
+background : #3B60E4;
+}
+
+header {
+padding : 0.5rem 0;
+background : #D81159;
+font-size : 36px;
+}
+
+.container {
+max-width : 1440px;
+margin : 0 auto;
+width : 100%;
+padding : 0 1.5rem;
+}
+
+nav {
+display : flex;
+justify-content : space-between;
+align-items : center;
+}
+
+nav .logo {
+display : flex;
+justify-content : center;
+align-items : center;
+color : #ffff;
+}
+
+.logo img {
+width : 20%;
+object-fit : cover;
+margin-right : 12px;
+margin-left : 1px;
+}
+
+.logo span {
+font-size : 2rem;
+}
+
+nav ul {
+display : flex;
+list-style-type : none;
+color : white;
+}
+
+nav ul li {
+margin : 0 0.4rem;
+align-items : center;
+padding : 0.5rem 0.5rem;
+}
+
+nav ul li a {
+text-decoration : none;
+font-size : 28px;
+letter-spacing : 2px;
+color : #ffff;
+padding : 0.7rem 1rem;
+}
+
+footer {
+position : absolute;
+bottom : 20px;
+margin-left : 15px;
+}
+
+.jalka {
+font-family : "Stint Ultra Expanded", sans-serif;
+color : white;
+margin-top : 25px;
+}
+
+.sivussa {
+color : white;
+position : relative;
+width : 20%;
+margin-top : 2rem;
+}
+
+aside {
+position : sticky;
+top : 0;
+}
+
+.lista {
+columns : 2;
+}
+
+.div5 {
+margin-left : 25px;
+width : 20%;
+}
+
+main {
+display : flex;
+justify-content : space-between;
+flex-wrap : wrap;
+}
+
+div[class^="div"] {
+flex : 1;
+width : 45%;
+margin : 1.5%;
+}
