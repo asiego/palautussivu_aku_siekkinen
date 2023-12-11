@@ -69,11 +69,10 @@ overflow: hidden;
 }
 
 .parallax-image{
-background-image: url(image67.jpeg);
 background-size: cover;
-background-position: center;
+background-position: center center;
 background-attachment: fixed;
-height: 100%;
+height: 400px;
 width: 100%;
 }
 
@@ -135,9 +134,10 @@ padding : 0.7rem 1rem;
 }
 
 footer {
-position : absolute;
-bottom : 20px;
+position : relative;
 margin-left : 15px;
+clear: both;
+margin-top: 20px;
 }
 
 .jalka {
@@ -148,25 +148,15 @@ margin-top : 25px;
 
 .sivussa {
 color : white;
-position : relative;
 width : 20%;
 margin-top : 2rem;
 align-self : flex-start;
-}
-
-aside {
-position : sticky;
-top : 0;
 }
 
 .lista {
 columns : 2;
 }
 
-.div5 {
-margin-left : 25px;
-width : 20%;
-}
 
 .div4 {
 flex : 1;
@@ -174,11 +164,7 @@ width : 45%;
 margin : 1.5%;
 }
 
-main {
-display : flex;
-justify-content : space-between;
-flex-wrap : wrap;
-}
+
 
 div[class^="div"] {
 flex : 1;
@@ -255,13 +241,38 @@ width: 48%;
 margin: 1%;
 }
 
-.alaosa, .div5{
+
+.div5 
+.sivussa{
 display: flex;
 flex-wrap: wrap;
 }
 
-.div5, .aside{
+.div5{
 flex: 1;
 width: 48%;
+margin: 1%;
+}
 
+.sivussa{
+flex: 1;
+width: 48%;
+margin: 1%;
+}
+
+.right-image{
+flex: 1;
+width: 48%;
+margin: 1%;
+display: flex;
+justify-content: flex-end;
+}
+
+.right-image img{
+max-width: 48%;
+max-height: 25%;
+width: 660px;
+position: absolute;
+right: 50px;
+align-self: flex-start;
 }
