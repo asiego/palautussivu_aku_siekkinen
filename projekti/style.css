@@ -10,10 +10,8 @@ font-family : "Stint Ultra Expanded", sans-serif;
 font-family : "Pontano Sans", sans-serif;
 }
 
-header, .container {
+header {
 width : 100%;
-display: flex;
-flex-wrap: wrap;
 }
 
 ul, li {
@@ -59,8 +57,9 @@ background : #ffff;
 }
 
 header {
+padding : 0.5rem 0;
 background : #D81159;
-font-size : 24px;
+font-size : 36px;
 }
 
 .parallax-container{
@@ -106,7 +105,7 @@ margin-bottom: 25px;
 }
 
 .logo span {
-font-size : 1.5rem;
+font-size : 2rem;
 }
 
 nav ul {
@@ -114,12 +113,14 @@ list-style-type : none;
 color : white;
 display : flex;
 flex-wrap : wrap;
-margin : 20px;
+margin-right : 90px;
+font-size: 22;
 }
 
 nav ul li {
 margin : 0 1rem;
 align-items : center;
+padding : 0.5rem 0;
 flex : 1;
 text-align : center;
 flex : 0 0 100%;
@@ -127,7 +128,7 @@ flex : 0 0 100%;
 
 nav ul li a {
 text-decoration : none;
-font-size : 20px;
+font-size : 24px;
 letter-spacing : 2px;
 color : #ffff;
 padding : 0.7rem 1rem;
@@ -184,30 +185,8 @@ font-size : 32px;
 }
 
 @media screen and (max-width: 768px) {
-    nav ul{
-        display: none;
 }
 
-    nav .btn{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    }
-    
-    nav ul.show{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #d81159;
-    }
-    
-    nav ul.show li{
-    margin: 0.5rem;
-    }
-    
 .sca {
 color : white;
 text-decoration : none;
@@ -289,7 +268,7 @@ width: 95%;
 margin: 1%;
 display: flex;
 flex-wrap: wrap;
-position: relative;
+position: relative;    
 
 }
 
@@ -297,7 +276,11 @@ position: relative;
 max-width: 100%;
 height: auto;
 position: absolute;
-right: 1.7%;
-top: 5%
+right: 1.8%;
+top: 5%;
+}
+
+.container{
+padding: 0 !important;
 }
 
