@@ -10,8 +10,10 @@ font-family : "Stint Ultra Expanded", sans-serif;
 font-family : "Pontano Sans", sans-serif;
 }
 
-header {
+header, .container {
 width : 100%;
+display: flex;
+flex-wrap: wrap;
 }
 
 ul, li {
