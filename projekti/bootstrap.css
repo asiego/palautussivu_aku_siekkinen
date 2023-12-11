@@ -105,8 +105,10 @@ body{margin-top:20px;}
 
 footer{
 position: relative;
-bottom: 10px;
+bottom: 0px;
 font-family: "Stint Ultra Expanded", sans-serif;
+background-color: #FFBC42;
+width: 100%;
 }
 
 main{
@@ -127,6 +129,10 @@ font-family: "Stint Ultra Expanded", sans-serif;
 color: black;
 }
 
-body,html{
-background-color: #ffffff !important;
+html{
+background-color: #FFBC42 !important;
+}
+
+body{
+background-color: white;
 }
